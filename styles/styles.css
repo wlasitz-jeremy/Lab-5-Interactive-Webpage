@@ -1,0 +1,11 @@
+.img {
+  display: flex;
+  width: 25vw;
+  height: 25vw;
+}
+.page_name {
+}
+.footer_content {
+  display: flex;
+  justify-content: center;
+}
