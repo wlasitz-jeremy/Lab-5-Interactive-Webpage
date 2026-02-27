@@ -28,3 +28,11 @@ img {
   height: 15vw;
   border-radius: 10vw;
 }
+.inputs {
+  display: flex;
+  justify-content: center;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+}
