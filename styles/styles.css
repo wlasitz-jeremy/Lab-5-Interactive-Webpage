@@ -4,7 +4,7 @@
 }
 nav ul li a.active {
   background-color: blue;
-  color: blueviolet;
+  color: green;
 }
 nav ul li a {
   display: flex;
@@ -28,11 +28,22 @@ img {
   height: 15vw;
   border-radius: 10vw;
 }
-.inputs {
-  display: flex;
-  justify-content: center;
-}
 .submit {
   display: flex;
   justify-content: center;
+}
+.fname {
+  display: flex;
+  justify-content: center;
+}
+.email {
+  display: flex;
+  justify-content: center;
+}
+.message {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  color: rgb(156, 83, 48);
 }
