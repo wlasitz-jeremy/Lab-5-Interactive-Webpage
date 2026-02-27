@@ -28,22 +28,25 @@ img {
   height: 15vw;
   border-radius: 10vw;
 }
-.submit {
-  display: flex;
-  justify-content: center;
-}
 .fname {
   display: flex;
   justify-content: center;
+  margin: 1vw;
 }
 .email {
   display: flex;
   justify-content: center;
+  margin: 1vw;
 }
 .message {
   display: flex;
   justify-content: center;
+  margin: 1vw;
 }
 h1 {
   color: rgb(156, 83, 48);
+}
+.submit {
+  display: flex;
+  justify-content: center;
 }
