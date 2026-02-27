@@ -2,16 +2,17 @@
   display: flex;
   justify-content: center;
 }
-nav ul li a .active {
+nav ul li a.active {
   background-color: blue;
   color: blueviolet;
 }
 nav ul li a {
-  display: block;
+  display: flex;
   text-decoration: none;
   padding: 0.2vw;
   border: 0.2vw solid grey;
-  margin-bottom: -1;
+  margin-bottom: -0.2vw;
+  justify-content: center;
 }
 nav ul {
   list-style: none;
@@ -25,4 +26,5 @@ nav ul {
 img {
   width: 15vw;
   height: 15vw;
+  border-radius: 10vw;
 }
