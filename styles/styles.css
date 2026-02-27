@@ -16,7 +16,7 @@ nav ul li a {
 }
 nav ul {
   list-style: none;
-  width: 8vw;
+  width: 10vw;
 }
 .header {
   align-items: center;
@@ -28,11 +28,18 @@ img {
   height: 15vw;
   border-radius: 10vw;
 }
-.inputs {
-  display: flex;
-  justify-content: center;
-}
+.fname,
+.email,
+.message,
 .submit {
   display: flex;
   justify-content: center;
+  gap: 1vw;
+  margin: 1vw;
+}
+.submit {
+  flex-direction: column;
+}
+.message {
+  height: 5vw;
 }
