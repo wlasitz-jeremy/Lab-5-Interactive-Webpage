@@ -1,9 +1,13 @@
 .img {
   display: flex;
-  width: 25vw;
-  height: 25vw;
+  width: 15vw;
+  height: 15vw;
 }
 .page_name {
+  display: flex;
+  grid-template-columns: 1fr;
+}
+.img {
 }
 .footer_content {
   display: flex;
