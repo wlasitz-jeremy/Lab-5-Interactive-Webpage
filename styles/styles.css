@@ -1,15 +1,28 @@
-.img {
-  display: flex;
-  width: 15vw;
-  height: 15vw;
-}
-.page_name {
-  display: flex;
-  grid-template-columns: 1fr;
-}
-.img {
-}
 .footer_content {
   display: flex;
   justify-content: center;
+}
+nav ul li a .active {
+  background-color: blue;
+  color: blueviolet;
+}
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 0.2vw;
+  border: 0.2vw solid grey;
+  margin-bottom: -1;
+}
+nav ul {
+  list-style: none;
+  width: 8vw;
+}
+.header {
+  align-items: center;
+  display: flex;
+  padding: 1vw;
+}
+img {
+  width: 15vw;
+  height: 15vw;
 }
