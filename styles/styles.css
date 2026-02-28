@@ -37,13 +37,13 @@ img {
   gap: 1vw;
   margin: 1vw;
 }
-.message {
+.message input {
   height: 5vw;
 }
 h1 {
   color: rgb(156, 83, 48);
 }
-.submit button {
+.submit input {
   flex-direction: column;
   padding: 0.2vw;
   width: 10vw;
