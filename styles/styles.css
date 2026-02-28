@@ -36,9 +36,7 @@ img {
   justify-content: center;
   gap: 1vw;
   margin: 1vw;
-}
-.message input {
-  height: 5vw;
+  vertical-align: top;
 }
 h1 {
   color: rgb(156, 83, 48);
@@ -47,6 +45,4 @@ h1 {
   flex-direction: column;
   padding: 0.2vw;
   width: 10vw;
-}
-.inputs {
 }
