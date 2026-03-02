@@ -13,10 +13,11 @@ nav ul li a {
   border: 0.2vw solid grey;
   margin-bottom: -0.2vw;
   justify-content: center;
+  height: 2vw;
 }
 nav ul {
   list-style: none;
-  width: 10vw;
+  width: 15vw;
 }
 .header {
   align-items: center;
@@ -27,6 +28,7 @@ img {
   width: 15vw;
   height: 15vw;
   border-radius: 10vw;
+  margin-right: 2vw;
 }
 .fname,
 .email,
