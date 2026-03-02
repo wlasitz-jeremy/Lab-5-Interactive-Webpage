@@ -32,8 +32,6 @@ img {
 .email,
 .message,
 .submit {
-  display: flex;
-  justify-content: center;
   gap: 1vw;
   margin: 1vw;
   vertical-align: top;
@@ -44,6 +42,20 @@ h1 {
 .submit input {
   flex-direction: column;
   padding: 0.2vw;
-  width: 10vw;
+  width: 15vw;
   margin: 1vw;
+}
+.message {
+  height: 6vw;
+}
+.fname,
+.email,
+.message {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 35vw;
+}
+.submit {
+  display: flex;
+  justify-content: center;
 }
